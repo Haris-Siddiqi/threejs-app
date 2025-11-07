@@ -1,11 +1,13 @@
 import Navbar from "./components/NavBar"
 import Hero from "./components/Hero"
+import ProductViewer from "./components/ProductViewer"
 
 const App = () => {
     return (
         <main>
             <Navbar />
             <Hero />
+            <ProductViewer />
         </main>
     )
 }
